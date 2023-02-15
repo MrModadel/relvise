@@ -286,6 +286,86 @@ a {
       margin: 30px 25px 0px 30px;
    }
 }
-.mr{
+.mr {
    margin: 0px 25px 50px 30px;
+}
+.trusted {
+   &__container {
+      display: flex;
+      flex-direction: column;
+      margin-top: 100px;
+   }
+
+   &__title-box {
+      margin-bottom: 100px;
+   }
+
+   &__title {
+   }
+
+   &__text {
+   }
+
+   &__content {
+      display: flex;
+      gap: 120px;
+   }
+
+   &__video {
+   }
+
+   &__right-block {
+      display: flex;
+      flex-direction: column;
+      gap: 50px;
+   }
+}
+.right-block {
+   &__title-box {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+   }
+
+   &__title {
+      text-align: start;
+   }
+
+   &__text {
+      text-align: start;
+   }
+
+   &__elem {
+   }
+   &__elem-box {
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+   }
+}
+.block-mini {
+   display: flex;
+   align-items: start;
+   gap: 10px;
+   &__img {
+   }
+
+   &__title-box {
+   }
+
+   &__title {
+      font-weight: 700;
+      font-size: 16px;
+      line-height: 24px;
+      letter-spacing: 0.1px;
+      color: #252b42;
+   }
+
+   &__text {
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 24px;
+      letter-spacing: 0.2px;
+      color: #737373;
+   }
 }
