@@ -299,13 +299,6 @@ a {
    &__title-box {
       margin-bottom: 100px;
    }
-
-   &__title {
-   }
-
-   &__text {
-   }
-
    &__content {
       display: flex;
       gap: 120px;
@@ -367,5 +360,82 @@ a {
       line-height: 24px;
       letter-spacing: 0.2px;
       color: #737373;
+   }
+}
+.companies {
+   position: relative;
+   &__effect {
+      position: absolute;
+      width: 100%;
+      height: 77px;
+      background: #252b42;
+      top: 137px;
+      z-index: -1;
+   }
+
+   &__container {
+   }
+
+   &__logobox {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 186px 0px 50px 0px;
+      gap: 30px;
+   }
+
+   &__logo {
+   }
+
+   &__formbox {
+      padding: 30px 50px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 180px;
+      background: #17213c;
+   }
+}
+.formbox {
+   &__title {
+      font-weight: 700;
+      font-size: 24px;
+      line-height: 32px;
+      letter-spacing: 0.1px;
+      color: #ffffff;
+   }
+
+   &__form {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+   }
+
+   &__input {
+      width: 450px;
+      height: 58px;
+      padding: 0 0 0 20px;
+   }
+   &__input::placeholder {
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 28px;
+      letter-spacing: 0.2px;
+      color: #737373;
+   }
+
+   &__button {
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 28px;
+      text-align: center;
+      letter-spacing: 0.2px;
+      background: #ff7b47;
+      border: 1px solid #e6e6e6;
+      border-radius: 0px 5px 5px 0px;
+      height: 58px;
+      width: 117px;
+      margin-left: -115px;
+      color: #FFFFFF;
    }
 }
